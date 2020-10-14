@@ -10,9 +10,11 @@ import {BehaviorSubject} from 'rxjs';
 export class ProductService {
 
   AllProducts = new BehaviorSubject<productModel[]>(null);
+  constructor( private http: HttpClient ) {
+    this.getFromDb('');
+  }
 
-  constructor( private http: HttpClient ) { }
-  private baseUrl = 'http://localhost::8000/api/';
+  private baseUrl = 'http://localhost:8000/api/';
 
   public add(form) {
     return this.http.post(this.baseUrl + 'add', form);
