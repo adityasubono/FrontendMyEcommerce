@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "FrontEndMyECommerce": {
@@ -24,9 +24,39 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./src/assets/AdminLTE/plugins/fontawesome-free/css/all.min.css",
+              "./src/assets/AdminLTE/plugins/overlayScrollbars/css/OverlayScrollbars.min.css",
+              "./src/assets/AdminLTE/plugins/daterangepicker/daterangepicker.css",
+              "./src/assets/AdminLTE/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css",
+              "./src/assets/AdminLTE/plugins/select2/css/select2.min.css",
+              "./src/assets/AdminLTE/plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css",
+              "./src/assets/AdminLTE/plugins/icheck-bootstrap/icheck-bootstrap.min.css",
+              "./src/assets/AdminLTE/dist/css/adminlte.min.css",
+              "./src/assets/AdminLTE/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css",
+              "./src/assets/AdminLTE/plugins/toastr/toastr.min.css",
+              "./src/assets/AdminLTE/plugins/summernote/summernote-bs4.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./src/assets/AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js",
+              "./src/assets/AdminLTE/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js",
+              "./src/assets/AdminLTE/plugins/select2/js/select2.full.min.js",
+              "./src/assets/AdminLTE/plugins/bootstrap4-duallistbox/jquery.bootstrap-duallistbox.min.js",
+              "./src/assets/AdminLTE/plugins/moment/moment.min.js",
+              "./src/assets/AdminLTE/plugins/inputmask/min/jquery.inputmask.bundle.min.js",
+              "./src/assets/AdminLTE/plugins/daterangepicker/daterangepicker.js",
+              "./src/assets/AdminLTE/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js",
+              "./src/assets/AdminLTE/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js",
+              "./src/assets/AdminLTE/plugins/bootstrap-switch/js/bootstrap-switch.min.js",
+              "./src/assets/AdminLTE/plugins/sweetalert2/sweetalert2.min.js",
+              "./src/assets/AdminLTE/plugins/toastr/toastr.min.js",
+              "./src/assets/AdminLTE/plugins/summernote/summernote-bs4.min.js",
+              "./src/assets/AdminLTE/plugins/toastr/toastr.min.js",
+              "./src/assets/AdminLTE/dist/js/adminlte.min.js"
+            ]
           },
           "configurations": {
             "production": {
